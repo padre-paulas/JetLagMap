@@ -77,6 +77,18 @@ class LocationsDataService {
                 "odawara-odawaracastle-3",
             ],
             link: "https://en.wikipedia.org/wiki/Odawara_Castle"),
+            Location(
+                name: "Gornergrat",
+                cityName: "Zermatt",
+                coordinates: CLLocationCoordinate2D(latitude: 45.98337, longitude: 7.78334),
+                description: "The Gornergrat Observatory, located high above Zermatt, Switzerland, sits at an elevation of about 3,100 meters and offers one of the most breathtaking views of the Matterhorn and surrounding Alpine peaks. Known formally as the Gornergrat Kulm Hotel and Observatory, it combines scientific research with tourism, housing telescopes that study the clear, dry mountain skies. Because of its altitude and minimal light pollution, it’s one of the best spots in Europe for astronomical observation. Visitors can reach it via the Gornergrat Railway, one of the highest cogwheel railways in the world.",
+                imageNames: [
+                    "zermatt-gornergrat-observatory-1",
+                    "zermatt-gornergrat-observatory-2",
+                    "zermatt-gornergrat-observatory-3",
+                ],
+                link: "https://en.wikipedia.org/wiki/Gornergrat"),
+        
     ]
     
 }
