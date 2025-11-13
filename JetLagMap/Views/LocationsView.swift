@@ -10,9 +10,6 @@ import MapKit
 
 struct LocationsView: View {
     
-//    @State private var position: MapCameraPosition = MapCameraPosition.region(MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 41.8902, longitude: 12.4922), span: MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)))
-    
-    //@StateObject private var vm = LocationsViewModel()
     @EnvironmentObject private var vm: LocationsViewModel
     let maxWidthForIpad: CGFloat = 600
     
