@@ -138,8 +138,9 @@ extension LocationInformation2View {
                 .font(.headline)
                 .padding(16)
                 .foregroundStyle(.primary)
-                .background(.thickMaterial)
-                .clipShape(RoundedRectangle(cornerRadius: 10))
+                .background(.regularMaterial)
+//                .clipShape(RoundedRectangle(cornerRadius: 10))
+                .clipShape(Circle())
                 .shadow(radius: 4)
                 .padding()
         }
